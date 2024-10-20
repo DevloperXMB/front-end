@@ -1,0 +1,38 @@
+$primary-color: #4a90e2;
+$secondary-color: #f5f5f5;
+$back-color: red;
+$font-stack: 'Arial', sans-serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  height: 100vh;
+  width: 100%;
+//   background-image: linear-gradient($primary-color,red);
+}
+
+.parent {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.partLeft {
+    height: 100%;
+    width: 20%;
+    background-color: $primary-color;
+}
+
+.partRaght {
+    height: 100%;
+    width: 80%;
+    background-color: #fff;
+}

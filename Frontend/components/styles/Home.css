@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+  width: 100%;
+  /* background-image: linear-gradient(#4a90e2, red); */
+}
+
+.parent {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.partLeft {
+  height: 100%;
+  width: 20%;
+  background-color: #4a90e2;
+}
+
+.partRaght {
+  height: 100%;
+  width: 80%;
+  background-color: #fff;
+}/*# sourceMappingURL=Home.css.map */

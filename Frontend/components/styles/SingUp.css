@@ -1,0 +1,284 @@
+* 
+     {
+        margin: 0;
+        padding: 0;
+     }
+
+body 
+     {
+        /* background-image: url(https://img.freepik.com/premium-photo/gaming-background-digital-gaming-background-gaming-concept_1301985-1555.jpg?size=626&ext=jpg); */
+        box-sizing: border-box;
+        background-image: url(https://img.freepik.com/free-photo/view-illuminated-neon-gaming-keyboard-setup-controller_23-2149529357.jpg?t=st=1728687069~exp=1728690669~hmac=8ba37cfa770ffb652e8c55096e1d2600e7afa4c52d9d5f31393186a09715d33f&w=1380);
+        /* background-image: linear-gradient( 90deg,rgb(75, 0, 130), rgb(0, 0, 255), rgb(238, 130, 238), rgb(255, 0, 0)); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+.card     
+     {
+        width: 30vw;
+        height: 80vh;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border: 2px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 1070px 54px rgba(0, 0, 0, 0.37);
+        animation: rainbow-border-shadow 5s linear infinite;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1vh 1vw;
+        text-align: center;
+     }     
+
+.part-1
+     {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+     } 
+
+.logotext
+     {
+        width: 10%;
+     }     
+
+.logo-1
+     {
+        height: 4vh;
+        padding-top: 1vh;
+     }
+
+img 
+     {
+        width: 100%;
+        height: 100%;
+        padding-top: 1vh;
+        position: relative;
+        left: -5vw;
+        top: -1vh;
+     }
+
+.part-2, .part-3, .part-4, .part-5
+     {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        text-align: center;
+     }
+
+.logotext
+     {
+        height: 10vh;
+        width: 20vw;
+     }   
+
+.name
+     {
+        color: #fff;
+        font-size: 200%;
+     }
+
+.value
+     {
+        width: 80%;
+        height: 20%;
+     }
+
+input
+     {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        color: #fff;
+        background-color: transparent;
+        border-right: none;
+        border-top: none;
+        border-left: none;
+        border-bottom: white 1px solid;
+        font-size: 2vh;
+        animation: topp-border 5s linear infinite;
+     }
+
+    .button {
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        height: 40%;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .signup-btn {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase; 
+        border-radius: 10px;
+        border: 1px solid transparent;
+        animation: border-glow 5s infinite; 
+    }
+    
+    .button-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        z-index: 1;
+    }
+    
+    .textsinup {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        padding: 2vh;
+    }
+ 
+.accaonte
+     {
+        text-decoration: underline;
+     }    
+
+    a
+     {
+        text-decoration: none;
+        outline: none;
+     }   
+
+    .textsinup p {
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+    }
+
+     /* .button:hover
+     {
+        position: relative;
+        top: -20px;
+        width: 85%;
+        height: 50%;
+     } */
+
+     .signup-btn:hover
+     {
+        background-color: rgba(255, 255, 255, 0.336);
+     }
+
+     @keyframes rainbow-border-shadow {
+        0% {
+            border-color: rgb(255, 0, 0);    
+            box-shadow: 0 4px 107px 10px rgb(255, 0, 0); 
+        }
+        14% {
+            border-color: rgb(255, 165, 0);  
+            box-shadow: 0 4px 107px 10px rgb(255, 165, 0); 
+        }
+        28% {
+            border-color: rgb(255, 255, 0);  
+            box-shadow: 0 4px 107px 10px rgb(255, 255, 0); 
+        }
+        42% {
+            border-color: rgb(0, 255, 0);   
+            box-shadow: 0 4px 107px 10px rgb(0, 255, 0); 
+        }
+        57% {
+            border-color: rgb(0, 0, 255);    
+            box-shadow: 0 4px 107px 10px rgb(0, 0, 255); 
+        }
+        71% {
+            border-color: rgb(75, 0, 130);   
+            box-shadow: 0 4px 107px 10px rgb(75, 0, 130); 
+        }
+        85% {
+            border-color: rgb(238, 130, 238);
+            box-shadow: 0 4px 107px 10px rgb(238, 130, 238); 
+        }
+        100% {
+            border-color: rgb(255, 0, 0);    
+            box-shadow: 0 4px 107px 10px rgb(255, 0, 0); 
+        }   
+    }
+
+     @keyframes topp-border {
+        0% {
+            border-color: rgb(255, 0, 0);    
+        }
+        14% {
+            border-color: rgb(255, 165, 0);  
+    
+        }
+        28% {
+            border-color: rgb(255, 255, 0);  
+    
+        }
+        42% {
+            border-color: rgb(0, 255, 0);   
+        }
+        57% {
+            border-color: rgb(0, 0, 255);    
+        }
+        71% {
+            border-color: rgb(75, 0, 130);   
+
+        }
+        85% {
+            border-color: rgb(238, 130, 238);
+            
+        }
+        100% {
+            border-color: rgb(255, 0, 0);    
+        }   
+     }     
+
+     @keyframes border-glow {
+        0% {
+            border-color: rgb(255, 0, 0);    
+        }
+        14% {
+            border-color: rgb(255, 165, 0);  
+    
+        }
+        28% {
+            border-color: rgb(255, 255, 0);  
+    
+        }
+        42% {
+            border-color: rgb(0, 255, 0);   
+        }
+        57% {
+            border-color: rgb(0, 0, 255);    
+        }
+        71% {
+            border-color: rgb(75, 0, 130);   
+
+        }
+        85% {
+            border-color: rgb(238, 130, 238);
+            
+        }
+        100% {
+            border-color: rgb(255, 0, 0);    
+        }
+    }     
